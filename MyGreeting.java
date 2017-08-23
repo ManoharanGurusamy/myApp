@@ -3,7 +3,7 @@ public class MyGreeting {
 		greeting.perform();
 	}
 	public static void main(String[] args) {
-		Greeting myGreetFunction = () -> System.out.println("Hello World!");
+		Greeting myGreetFunction = () -> System.out.println("Hello Lambda Function");
 		Greeting ananymousFunction = new Greeting(){
 			public void perform(){
 				System.out.println("Hello Ananymous Function");
